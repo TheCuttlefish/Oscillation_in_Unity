@@ -16,8 +16,8 @@ public class movement : MonoBehaviour {
 
 		//movement oscillation
 		transform.Translate (
-			(Mathf.Sin(Time.time*3f)/20),
-			(Mathf.Cos(Time.time*3f)/40),
+			(Mathf.Sin(Time.time*3f)/10),
+			(Mathf.Cos(Time.time*3f)/20),
 			(Mathf.Cos(Time.time*3f)/30)
 		);
 	}
